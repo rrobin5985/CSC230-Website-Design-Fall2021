@@ -84,7 +84,45 @@ article#tour_summary > p:first-of-type::first-line {
 
 /* Aside Styles */
 
+aside#tour_intinerary h1 {
+   font-size: 1.2em;
+}
 
+aside#tour_intinerary h2 {
+   font-size: 0.2em;
+}
+
+aside#tour_intinerary p {
+   font-size: 0.8em;
+}
+
+aside#tour_intinerary h2:nth-of-type(even) {
+   color: rgb(81, 95, 175);
+}
+
+aside#tour_intinerary h2:nth-of-type(odd) {
+   color: rgb(79, 81, 40);
+}
+
+aside#tour_intinerary p:nth-of-type(even) {
+   color: rgb(81, 95, 175);
+}
+
+
+aside#tour_intinerary p:nth-of-type(odd) {
+   color: rgb(79, 81, 40);
+}
 
 /* Blockquote Styles */
 
+blockquote {
+   background-color: rgb(173, 189, 227);
+   color: rgb(255, 255, 255, 0.65);
+}
+
+blockquote p {
+   padding-top: 2.5px;
+   padding-bottom: 2.5px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
