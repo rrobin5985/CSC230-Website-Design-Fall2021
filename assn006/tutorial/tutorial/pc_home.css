@@ -39,12 +39,13 @@ body > header > nav.horizontalNavigation li {
 
 nav.horizontalNavigation li {
     display: block;
-    width: 100%;
+    float: left;
 }
 
 nav.horizontalNavigation a {
     display: block;
     text-align: center;
+}
     
 }
 /* Left Column Styles */
@@ -54,7 +55,6 @@ section#leftColumn {
     float: left;
     width: 33%;
 }
-
 
 
 /* Right Column Styles */
