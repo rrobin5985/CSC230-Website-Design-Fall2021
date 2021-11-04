@@ -47,12 +47,13 @@ nav.horizontalNavigation a {
     text-align: center;
 }
     
-}
+
 /* Left Column Styles */
 
 section#leftColumn {
     clear: left;
     float: left;
+    padding: 1.5em;
     width: 33%;
 }
 
