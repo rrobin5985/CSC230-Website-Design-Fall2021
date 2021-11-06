@@ -7,7 +7,7 @@
    
    Reset Style Sheet for the Pandaisia Chocolates Website
    Author: Reginald Robinson
-   Date:   3 Nov 2021
+   Date:   6 November 2021
    
    Filename: pc_reset.css
 
@@ -24,20 +24,16 @@ footer, header, main, nav, section {
 /* Typographic Styles */
 
 address, article, aside, blockquote, body, cite,
-div, dl, dt, dd, em, figcaption, figure, footer,
+div, dl, dt, dd, em, figcaption, figure, footer, 
 h1, h2, h3, h4, h5, h6, header, html, img,
 li, main, nav, ol, p, section, span, ul {
-   background: transparent;
-   font-size: 100%;
-   margin: 0;
-   padding: 0;
-   vertical-align: baseline;
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
+    background: transparent;
+    font-size: 100%;
+    margin: 0%;
+    vertical-align: baseline;
 }
 
-nav ul {
+nav {
     list-style: none;
     list-style-image: none;
 }
@@ -47,5 +43,5 @@ nav a {
 }
 
 body {
-    line-height: 1;
+    line-height: 1;;
 }
