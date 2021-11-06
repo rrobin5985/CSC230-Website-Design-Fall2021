@@ -30,6 +30,11 @@ div.infobox {
 }
 
 
+div.infobox {
+    position: absolute;
+}
+
+
 
 /* First Infographic */
 
@@ -39,8 +44,22 @@ div#infol {
     left: 5%;
 }
 
+div#infol {
+    display: block;
+    top: 20px;
+    left: 5%;
+
+
 
 /* Second Infographic */
+
+div#info2 {
+    display: block;
+    top: 185px;
+    left: 42%
+}
+
+
 
 div#info2 {
     display: block;
@@ -60,8 +79,24 @@ div#info3 {
 }
 
 
+div#info3 {
+    display: block;
+    top: 135px;
+    left: 75%;
+
+}
+
+
+
 
 /* Fourth Infographic */
+
+div#info4 {
+    display: block;
+    top: 510px;
+    left: 8%;
+}
+
 
 div#info4 {
     display: block;
@@ -81,6 +116,15 @@ div#info5 {
 
 
 
+div#info5 {
+    display: block;
+    top: 800px;
+    left: 3%;
+}
+
+
+
+
 /* Sixth Infographic */
 
 div#info6 {
@@ -88,6 +132,15 @@ div#info6 {
     top: 600px;
     left: 48%;
 }
+
+
+
+div#info6 {
+    display: block;
+    top: 600px;
+    left: 48%;
+}
+
 
 
 
@@ -100,7 +153,23 @@ div#info7 {
 }
 
 
+div#info7 {
+    display: block;
+    top: 1000px;
+    left: 68%;
+}
+
+
 /* Eighth Infographic */
+
+div#info8 {
+    display: block;
+    top: 1100px;
+    left: 12%;
+}
+
+
+
 
 div#info8 {
     display: block;
