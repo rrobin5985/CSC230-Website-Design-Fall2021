@@ -32,21 +32,51 @@ body > header > img {
     width: 100%;
 }
 
+body > header > nav.horizontalNavigation li {
+    width: 20%;
+}
+
 
 
 
 /* Horizontal Navigation Styles */
 
+nav.horizontalNavigation li {
+    display: block;
+    float: left;
+}
+
+nav.horizontalNavigation a {
+    display: block;
+    text-align: center;
+}
+
 
 
 /* Left Column Styles */
 
-
+section#leftColumn {
+    clear: left;
+    float: left;
+    width: 33%;
+}
 
 
 /* Right Column Styles */
 
+section#rightColumn {
+    float: left;
+    width: 67%;
+}
 
+section#rightColumn img {
+    display: block;
+    width: 100%;
+}
+
+section#Column > nav.horizontalNavigation li {
+    width: 25%;
+}
 
 
 
