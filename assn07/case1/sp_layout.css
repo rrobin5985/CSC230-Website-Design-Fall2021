@@ -83,7 +83,13 @@ ul#topics li {
    margin-right: 1.5%;
 }
 
+ul#topics li:first-of-type {
+   margin-left: 7.75%;
+}
 
+ul#topics li:last-of-type {
+   margin-left: 7.75%;
+}
 
 
 
