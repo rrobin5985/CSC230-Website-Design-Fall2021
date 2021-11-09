@@ -36,7 +36,7 @@ header, ul, nav, li, a {
 
 /* Row Styles */
 
-grid-row::after {
+.grid::after {
    clear: both;
    content: "";
    display: table;
@@ -52,10 +52,12 @@ body > header > img {
    float: left;
 }
 
-
-
-
-
+body {
+   float: left;
+   padding-left: 2%;
+   padding-right: 2%;
+   width: 30%;
+}
 
 /* Horizontal Navigation List Styles */
 
