@@ -66,6 +66,11 @@ body {
 
 /* Horizontal Navigation List Styles */
 
+nav.horizontal li {
+   display: block;
+   width: 12.5%;
+   width: 100%;
+}
 
 
 
