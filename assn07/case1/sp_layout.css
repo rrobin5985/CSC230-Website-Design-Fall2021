@@ -139,4 +139,8 @@ ul#comments p {
 }
 /* Footer Styles */
 
+footer {
+   clear: both;
+}
+
 
