@@ -21,6 +21,9 @@ div.row {
     position: relative;
 }
 
+div.row {
+    float: left;
+}
 
 
 /* Grid Columns Styles */
