@@ -59,13 +59,13 @@ body {
    width: 30%;
 }
 
+ body > head > nav a  {
+    display: block;
+    width: 100%;
+ }
+
 /* Horizontal Navigation List Styles */
 
-nav.horizontal li {
-   display: block;
-   width: 12.5%;
-   width: 100%;
-}
 
 
 
