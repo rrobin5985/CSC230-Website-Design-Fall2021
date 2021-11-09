@@ -34,8 +34,14 @@ header, ul, nav, li, a {
 }
 
 
-
 /* Row Styles */
+
+grid-row::after {
+   clear: both;
+   content: "";
+   display: table;
+
+}
 
 
 
