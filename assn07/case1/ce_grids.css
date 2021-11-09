@@ -15,6 +15,11 @@
 
 /* Grid Rows Styles */
 
+div.row {
+    width: 100%;
+    clear: both;
+    position: relative;
+}
 
 
 
