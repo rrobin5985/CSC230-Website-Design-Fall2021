@@ -91,7 +91,11 @@ ul#topics li:last-of-type {
    margin-left: 7.75%;
 }
 
-
+ul#topics li img {
+   display: block;
+   width: 50%;
+   margin: 0 auto;
+}
 
 
 /* HR Styles */
