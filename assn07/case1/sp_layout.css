@@ -94,7 +94,8 @@ ul#topics li:last-of-type {
 ul#topics li img {
    display: block;
    width: 50%;
-   margin: 0 auto;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 
@@ -130,6 +131,11 @@ ul#comments li img {
    float: left;
    margin-left: 5%;
    margin-right: 5%;
+}
+
+ul#comments p {
+   width: 70%;
+   float: left;
 }
 /* Footer Styles */
 
