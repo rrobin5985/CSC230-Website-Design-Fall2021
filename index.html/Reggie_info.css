@@ -1,0 +1,21 @@
+@charset "utf_8";
+
+
+body {
+    height: 100%;
+    background-color: cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 81.9%;
+    padding-left: 4.55%;
+    padding-right: 4.55%;
+    clear: none;
+    float: none;
+    min-height: 100%;
+}        
+
+img {
+    width: 400px;
+    height: auto;
+} 
+        
