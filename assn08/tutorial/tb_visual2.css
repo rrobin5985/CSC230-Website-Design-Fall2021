@@ -39,6 +39,20 @@ figure#figure3 {
 
 /* Filter Styles */
 
+figure#figure1 {
+    -webkit-filter: sepia(0.8);
+    filter: sepia(0.8);
+}
+
+figure#figure2 {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+figure#figure3 {
+    -webkit-filter: saturate(1.5) contrast(1.2);
+    filter: saturate(1.5) contrast(1.2);
+}
 
 
 
