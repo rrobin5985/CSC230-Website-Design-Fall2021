@@ -16,7 +16,7 @@
 /* Window and Body Styles */
 
 html {
-    height: 100;
+    height: 100%; /* added the % sign*/
 }
 
 body {
@@ -29,15 +29,15 @@ body {
 }
 
 header, ul, nav, li, a {
-   box-sizing: border-box;
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 
 /* Row Styles */
 
-.grid::after {
+.row::after {  /* changed from grid to row*/
    clear: both;
    content: "";
    display: table;
@@ -53,7 +53,7 @@ body > header > img {
    float: left;
 }
 
-body {
+body > header > nav { /*added >header > nav*/
    float: left;
    padding-left: 2%;
    padding-right: 2%;
@@ -70,7 +70,8 @@ body {
 nav.horizontal li {
    display: block;
    width: 12.5%;
-   width: 100%;
+   /* reomve this as you already have this and add a float --width: 100%;*/
+   float: left;
 }
 
 
@@ -89,14 +90,15 @@ ul#topics li:first-of-type {
 }
 
 ul#topics li:last-of-type {
-   margin-left: 7.75%;
+   margin-right: 7.75%;/*changed to margin-right*/
 }
 
 ul#topics li img {
    display: block;
    width: 50%;
-   margin-left: auto;
-   margin-right: auto;
+   /*margin-left: auto;
+   margin-right: auto;  remove this and just add margin */
+   margin: 0 auto;
 }
 
 
@@ -113,10 +115,11 @@ hr {
 
 ul#comments {
    width: 75%;
-   margin-top: 40px;
+   /*margin-top: 40px;
    margin-bottom: 40px;
    margin-left: auto;
-   margin-right: auto;
+   margin-right: auto;--remove and just add the margin itself*/
+   margin: 40px auto;
 }
 
 ul#comments li {
@@ -130,8 +133,10 @@ ul#comments li img {
    display: block;
    width: 20%;
    float: left;
-   margin-left: 5%;
-   margin-right: 5%;
+  /* margin-left: 5%;
+   margin-right: 5%;--remove and just use margin*/
+   margin: 5%;
+
 }
 
 ul#comments p {
