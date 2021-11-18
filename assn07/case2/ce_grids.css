@@ -18,69 +18,77 @@
 div.row {
     width: 100%;
     clear: both;
-    position: relative;
+    /*position: relative;--not needed*/
 }
 
-div.row {
+/*div.row {
     float: left;
-}
+}----not this one*/
+div.row::after {
+    clear: both;   
+    content: "";
+    display: table;
+ }
 
 
 /* Grid Columns Styles */
 
+div[class^='column'] {/*added this*/
+    float: left;
+ }
 div.column100 {
     width: 100%;
-    float: left;
+    /*float: left;--removed*/
 }
 
 div.column50 {
     width: 50%;
-    float: left;
+    /*float: left;--removed*/
 }
 
 div.column33 {
     width: 33.33%;
-    float: left;
+    /*float: left;--removed*/
 }
 
 div.column67 {
     width: 66.67%;
-    float: left;
+    /*float: left;--removed*/
 }
 
 div.column25 {
     width: 25%;
-    float: left;
+    /*float: left;--removed*/
 }
 
 div.column75 {
     width: 75%;
-    float: left;
+    /*float: left;--removed*/
 }
 
 div.column20 {
     width: 20%;
-    float: left;
+    /*float: left;--removed*/
 }
 
 div.column40 {
     width: 40%;
-    float: left;
+    /*float: left;--removed*/
 }
 
 div.column60 {
     width: 60%;
-    float: left;
+    /*float: left;--removed*/
 }
 
 div.column80 {
     width: 80%;
-    float: left;
+    /*float: left;--removed*/
 }
 
 /* Grid Spacing Styles */
 
-.container, .row, div.column, div.cell, div.a {
+div.container, div.row, div[class^='column'], div.cell, div.cell a {/* changed it up here*/
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
