@@ -164,6 +164,14 @@ a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
 */
 @media only screen and (max-width: 480px) {
 
+   nav.horizontal a {
+      font-size: 1.5em;
+      line-height: 2.2em;
+   }
+
+   aside {
+      display: none;
+   }
 }
 
 /*================================
@@ -172,6 +180,17 @@ a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
 */
 @media only screen and (min-width: 481px) {
 
+   ul.mainmenu > li {
+      float: left;
+      position: relative;
+      width: 20%;
+   }
+
+   ul.submenu {
+      box-shadow: rgb(51, 51, 51) 5px 5px 15px;
+      position: absolute;
+      width: 200%;
+   }
 }
 
 /*==================================
