@@ -43,13 +43,28 @@
 
 /* Column Styles */
 
+#firstCol {
+   width: 24%;
+}
 
+.dataCols span {
+   width: 19%;
+}
 
 /* Table Header Styles */
 
+#pricing thead tr {
+   height: 60px;
+}
 
+#pricing thead th:first-of-type:not(:first-child) {
+   font-size: 2em;
+}
 
-
+#pricing tr:not(:first-of-type) {
+   color: black;
+   background-color: transparent;
+}
 
 
 
