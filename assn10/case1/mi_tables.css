@@ -15,6 +15,30 @@
 
 /* Table Styles */
 
+#pricing {
+   background: linear-gradient(to bottom, rgb(190, 215, 255), black);
+   border: 5px solid gray;
+   display: block;
+}
+
+#pricing tr, th, tr, td {
+   border: 3px solid gray;
+   line-height: 1.4em;
+   padding: 8px;
+}
+
+#pricing th, tr {
+   background-color: black;
+   color: rgb(130, 210, 255);
+   font-weight: normal;
+}
+
+#pricing td, tr {
+   color: white;
+   font-size: 0.9em;
+   vertical-align: top;
+}
+
 
 
 /* Column Styles */
